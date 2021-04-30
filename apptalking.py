@@ -19,7 +19,7 @@ try:
         command = listener.recognize_google(voice)
             
         # dictate if Henry is there or not.
-        # This will allow it to be called only when saying Banky
+        # This will allow it to be called only when saying Henry
         command = command.lower()
         if 'Henry' in command:
                 print(command)
